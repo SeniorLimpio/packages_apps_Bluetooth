@@ -1116,7 +1116,7 @@ static JNINativeMethod sMethods[] = {
     {"connectSocketNative", "([BI[BII)I", (void*) connectSocketNative},
     {"createSocketChannelNative", "(ILjava/lang/String;[BII)I",
      (void*) createSocketChannelNative},
-    {"configHciSnoopLogNative", "(Z)Z", (void*) configHciSnoopLogNative}
+    {"configHciSnoopLogNative", "(Z)Z", (void*) configHciSnoopLogNative},
     {"getSocketOptNative", "(III[B)I", (void*) getSocketOptNative},
     {"setSocketOptNative", "(III[BI)I", (void*) setSocketOptNative}
 };
