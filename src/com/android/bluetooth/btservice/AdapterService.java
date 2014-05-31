@@ -1194,6 +1194,8 @@ public class AdapterService extends Service {
         if ((hsService == null) ||(a2dpService == null )){
             return;
         }
+        boolean hsConnected = false;
+        boolean a2dpConnected =  false;
         List<BluetoothDevice> a2dpConnDevList= a2dpService.getConnectedDevices();
         List<BluetoothDevice> hfConnDevList= hsService.getConnectedDevices();
         // Check if the device is in disconnected state and if so return
